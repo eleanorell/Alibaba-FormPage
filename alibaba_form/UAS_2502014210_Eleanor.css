@@ -1,0 +1,380 @@
+/*Eleanor Maritsa Maharani
+ *2502014210
+ */
+ 
+ /*untuk mengatur isi konten secara keseluruhan*/
+.contentt{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ /*untuk header yang berada di paling atas*/
+.set1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgb(40, 45, 63);
+}
+
+/*untuk logo*/
+.logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+
+/*untuk mengatur jarak*/
+.breakk{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(40, 45, 63);
+}
+
+/*untuk setting jarak antar tulisannya*/
+.nav{
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+/*untuk tulisan language, homepage, dan login*/
+.navi{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(40, 45, 63);
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+	font-size:10pt;
+}
+
+/*untuk pilihan bahasa*/
+.language{
+    height: 50%;
+    text-align: center-left;
+    border: none;
+    background-color: rgb(40, 45, 63);
+    margin-top: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+
+}
+
+/*untuk subheader*/
+.set2{
+    width: 100%;
+    height: 180px;
+    background-image: url('banner_alibaba.jpeg');
+    background-size: 100%;
+    background-position-x: right;
+    background-position-y: -35px;
+    background-repeat: no-repeat;
+    filter: blur(0px);-webkit-filter: blur(0px);
+}
+
+/*untuk tulisan create your alibaba cloud account*/
+.textpromote{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    line-height: 31pt;
+}
+
+/*untuk tulisan free access...*/
+.free{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+/*untuk form register secara keseluruhan*/
+.set3{
+    width: 100%;
+    height: 700px;
+    padding-top: 20px;
+    background-color: white;
+    display: flex;
+}
+
+/*garis oren diatas box*/
+.orangeline{
+    background-color: rgb(233, 103, 41);
+    height: 3px;
+    width: 100%;
+    margin: auto;
+}
+
+/*mengatur jarak*/
+.breakingg{
+    width: 25%;
+    height: 100%;
+}
+
+/*box register*/
+.sign-up{
+    width: 50%;
+    height: 100%;
+    border: white;
+    box-shadow: 0 0 0 0 white, 0 0 0 0 white, 0 0 0 -8px black, 0 0 12px -8px black;
+    border-radius: 0px;
+}
+
+/*pilihan negara*/
+.country{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: breakk-between;
+    align-items: center;
+}
+
+/*untuk tulisan warning dibawah pilihan negara*/
+.warning{
+    width: 75%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+/*untuk memasukkan email*/
+.email input[type=text]{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: breakk-between;
+    align-items: center;
+}
+
+/*untuk tulisan jika email belum dimasukkan*/
+#blankEmail{
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+/*untuk memasukkan password*/
+.password input[type=password]{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: breakk-between;
+    align-items: center;
+}
+
+/*untuk tulisan jika password belum dimasukkan*/
+#blankPass{
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+/*untuk memasukkan konfirmasi password*/
+.confirm input[type=password]{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: breakk-between;
+    align-items: center;
+}
+
+/*tulisan jika belum konfirmasi password*/
+#blankConfirm{
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+/*tulisan syarat dan ketentuan*/
+.terms{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*warna dari checkbox*/
+.check { 
+    filter: hue-rotate(150deg);
+ }
+
+/*untuk set checkbox agar berada disebelah tulisan syarat dan ketentuan*/
+input[type=checkbox] {
+    margin: 5px;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 0px;
+  }
+
+/*untuk mengatur jarak tombol confirm*/
+.conf{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*untuk button confirm*/
+.conf button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(233, 103, 41);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/*untuk button confirm warna*/
+.conf button:hover{
+    background: orange;
+    color: white;
+}
+
+/*untuk tulisan Already a member*/
+.member{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+/*untuk teks secara keseluruhan di sebelah kiri*/
+.teksteks{
+    width: 25%;
+    height: 100%;
+}
+
+/*untuk judul: account benefits and registration tips*/
+.tips{
+    width: 85%;
+    margin: auto;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*subjudul 1: free trial*/
+.trial{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*isi dari subjudul 1*/
+.subtrial{
+    width: 85%;
+    margin: auto;
+    margin-top: -7px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+/*subjudul 2: premium support service*/
+.service{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*isi dari subjudul 2*/
+.subservice{
+    width: 85%;
+    margin: auto;
+    margin-top: -7px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+/*subjudul 3: How do i select..*/
+.acc{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*isi dari subjudul 3*/
+.subacc{
+    width: 85%;
+    margin: auto;
+    margin-top: -7px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+/*footer secara keseluruhan*/
+.baris4{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(75, 80, 84);
+}
+
+/*tulisan about us, privacy policy dan legal*/
+.aboutus{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+
+/*tulisan nama-nama perusahaan seperti aliexpress dll*/
+.name{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    color: rgb(175, 183, 178);
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+/*untuk tulisan copyright*/
+.copyright{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    color: rgb(175, 183, 178);
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}

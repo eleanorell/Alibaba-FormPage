@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--Eleanor Maritsa Maharani
+ 2502014210
+ -->
+<html>
+<head>
+    <title>250201420_Eleanor Maritsa Maharani</title>
+    <link rel="stylesheet" href="UAS_2502014210_Eleanor.css">
+</head>
+<body>
+	<!-- class mengatur secara keseluruhan-->
+    <div class="contentt">
+	
+	<!--untuk setting header-->
+        <div class ="set1">
+		
+			<!-- untuk insert logo-->
+            <div class ="logo">
+			<img width = "150 px" height = auto src = "alibabalogo.png">
+			</div>
+			
+            <div class ="breakk"></div>
+			
+			<!--untuk mengatur language, homepage dan login-->
+            <div class ="nav">
+				<img style="width:auto; margin-top:20px; margin-bottom:20px; padding-left:30px;" src ="globe.png">
+                <select name="languages" class="language">
+                    <option value="1">Intl - English</option>
+                    <option value="2">日本語</option>
+                    <option value="3">한국어</option>
+                    <option value="4">Deutsch</option>
+                    <option value="5">Bahasa Indonesia</option>
+                    <option value="6">Español</option>
+                </select>
+
+                <div class ="navi">Homepage</div>
+
+                <div class ="navi">Login</div>
+            </div>
+        </div>
+		
+		<!--untuk mengatur tulisan dan background yang berada dibawah header-->
+        <div class ="set2">
+            <div class="textpromote"><br>Create Your Alibaba Cloud Account</div>
+            <div class="free"><br>Free Access to Over 50 Products and Up to 12 Months Usage for Elastic Compute Service!</div>
+        </div>
+		
+		<!--untuk mengatur form registrasi-->
+        <div class ="set3">
+            <div class="breakingg"></div>
+            <div class="sign-up">
+                <div class="orangeline"></div>
+                <select name="countries" class="country">
+                    <option value="1">Indonesia</option>
+                    <option value="2">Afghanistan</option>
+					<option value="3">Belgium</option>
+					<option value="4">China</option>
+					<option value="5">Canada</option>
+					<option value="6">Denmark</option>
+					<option value="7">Egypt</option>
+					<option value="8">France</option>
+					<option value="9">Germany</option>
+					<option value="10">India</option>
+					<option value="11">Iran</option>
+					<option value="12">Italy</option>
+                    <option value="13">Japan</option>
+					<option value="14">Korea</option>
+                    <option value="15">Malaysia</option>
+					<option value="16">New Zealand</option>
+					<option value="17">Qatar</option>
+					<option value="18">Philippines</option>
+					<option value="19">Saudi Arabia</option>
+                    <option value="20">Singapore</option>
+					<option value="21">Spain</option>
+					<option value="22">Switzerland</option>
+					<option value="23">Thailand</option>
+                    <option value="24">Turkey</option>
+					<option value="25">Vietnam</option>
+                </select>
+				
+                <div class="warning">
+                    <p><a style="color:rgb(233, 103, 41)">ⓘ Country/region will be used for currency and tax purpose and cannot be changed after<br>&emsp;&nbsp registration.</a></p>
+                </div>
+
+                <div class="email">
+                    <input type="text" placeholder="Enter your email" id="emailuser">
+                    <span id="blankEmail"></span> <!--Memanggil javascript-->
+                </div>
+
+                <div class="password">
+                    <input type="password" placeholder="Enter your password" id="pass">
+                    <span id="blankPass"></span> <!--Memanggil javascript-->
+                </div>
+                
+                <div class="confirm">
+                    <input type="password" placeholder="Confirm your password" id="anotherpass">
+                    <span id="blankConfirm"></span> <!--Memanggil javascript-->
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" class="check"/>
+                    <p style="font-size: 10pt">I hereby agree to the Alibaba Cloud International Website <a style="color:rgb(233, 103, 41)">Membership <br>Agreement</a>, <a style="color:rgb(233, 103, 41)">Privacy Policy</a>, <a style="color:rgb(233, 103, 41)">Product Terms</a>, <a style="color:rgb(233, 103, 41)">Terms of Use</a>, under which i am<br> contracting with Alibaba Cloud (Singapore) Private Limited.</p>
+                </div>
+
+                <div class="conf">
+                    <button onclick="confirmation();">Confirm</button>
+                </div>
+
+                <div class="member">
+                    <p style="font-size: 12pt">Already a member? <a style="color:rgb(233, 103, 41)">Sign In</a></p>
+                </div>
+            </div>
+			
+			<!--untuk mengatur tulisan yang berada di paling kanan-->
+            <div class="teksteks">
+                <div class="tips">
+                    <b>Account Benefits & Registration Tips</b>
+                </div>
+
+                <div class="trial">
+                    <b>Free Trial</b>
+                </div>
+
+                <div class="subtrial">
+                    <p>Get free hands-on experience with 50+ <br>products. Now up to 12 Months for Elastic <br>Compute Service!</p>
+                </div>
+
+                <div class="service">
+                    <b>Premium Support Services</b>
+                </div>
+
+                <div class="subservice">
+                    <p><a style="color:rgb(233, 103, 41)">1-on-1 pre-sale consultation</a>, 24/7 after-sales<br>technical support with 6 free tickets per quarter</p>
+                </div>
+
+                <div class="acc">
+                    <b>How do I select the country or region of my<br>account?</b>
+                </div>
+
+                <div class="subacc">
+                    <p>For enterprise customers, please select the<br>account registration country/region based on<br>your business license. If not, you may be<br>unable to obtain the correct invoice for tax<br>deduction, and may not be eligible for your<br>local tax free policy, or may even be unable to<br>pay for the invoice</p>
+                </div>
+            </div>
+        </div>
+
+		<!--- untuk mengatur footer-->
+        <div class ="baris4">
+            <div class="aboutus">About Us &emsp;&emsp;&emsp; Privacy Policy &emsp;&emsp;&emsp; Legal &emsp;&emsp;&emsp; Notice List </div>
+            <div class="name">Alibaba Group &nbsp Taobao Marketplace &nbsp Tmall &nbsp Juhuasuan &nbsp Aliexpress &nbsp Alibaba.com &nbsp 1688 &nbsp Alimama &nbsp Alitrip &nbsp YunOS &nbsp AliTelecom &nbsp AutoNavi &nbsp UCWeb &nbsp Umeng &nbsp Xiami &nbsp DingTalk &nbsp AliPay</div>
+            <div class="copyright">© 2009-2021 Copyright by Alibaba Cloud All rights reserved</div>
+        </div>
+    </div>
+	
+	<!--link untuk ke file javascript-->
+    <script src="HCI_eleanormm.js"></script>
+</body>
+</html>
